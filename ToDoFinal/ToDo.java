@@ -282,7 +282,7 @@ public class ToDo implements CategoryArray{
           }
           FileWriter planFile = new FileWriter(important, true);//FileWriter constructor
           planFile.write(planScan1 + "," + planScan2 + "," + planScan3 + ":" + " ");//input year, month and day
-          System.out.println("Enter your "+ ctgHobby.getCatgName() +" schedule");//print priority using polymorphism
+          System.out.println("Enter your "+ ctgImportant.getCatgName() +" schedule");//print priority using polymorphism
           Scanner scan6 = new Scanner(System.in);//input plan
           String importantScan = scan6.nextLine();
           planFile.write(importantScan + "\n");//append to plan to file
